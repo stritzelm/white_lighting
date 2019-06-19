@@ -1,0 +1,55 @@
+#my_header {
+    text-align: right;
+    font-stretch: expanded;
+    font-size: 50px;
+    background-color: whitesmoke;
+}
+
+#sidebar {
+    position: fixed;
+    float:left;
+    width: 300px;
+    height: 100vh;
+    top: 0; /* Stay at the top */
+    left: 0;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+#sidebar h3 {
+    font-size: x-large;
+    padding-bottom: 64px;
+}
+#sidebar a {
+    color: white;
+}
+
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+#featured_events {
+    padding: 32px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+}
+
+#my_footer {
+    margin-left: 300px;
+}
+
+.li {
+    padding: 16px;
+}
+
+#Lucida {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
