@@ -4,7 +4,6 @@
     font-size: 50px;
     font-family: "Raleway", sans-serif;
     background-color: whitesmoke;
-
 }
 
 body {
@@ -51,53 +50,63 @@ a:hover {
 }
 
 
-
-#featured_events {
+#about_section {
     margin-left: 300px;
     padding: 32px;
-    text-align: left;
+    text-align: center;
+    font-weight: bold;
     background-color: grey;
 }
 
-#featured events h1 {
-    color: black;
-    font-weight: bold;
-
+#walk_in {
+    padding-bottom: 30px;
 }
 
-
-#featured_events figure figcaption {
-    color: black;
-    caption-side: inherit;
-    font-weight: bold;
+figcaption {
+    display: table-caption;
+    caption-side: top;
 }
 
-#featured_events figure img {
-    border: 5px solid black;
-    width: 350px;
-
+#fighting_history_section {
+    padding: 30px;
+    margin-left: 300px;
+    background-color: white;
 }
 
-#nav_social_sponsors_section {
+table, th, tr {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table th {
+    text-align: center;
+    width: 100px;
+}
+
+tr {
+    height: 20px;
+}
+
+#nav_social_other_section {
     margin-left: 300px;
 }
 
-#nav_social_sponsors_section h3 {
+#nav_social_other_section h3 {
     font-weight: bold;
 
 }
 
-#nav_social_sponsors_section a {
+#nav_social_other_section a {
     color: black;
 }
 
-#nav_social_sponsors_section a:hover {
+#nav_social_other_section a:hover {
     text-decoration: None;
     background-color: grey;
 }
 
-.container-fluid {
-    background-color: whitesmoke;
+#about_container {
+    background-color: grey;
 }
 
 ul {
@@ -120,7 +129,5 @@ ul a {
     text-align: center;
     color: white;
 }
-
-
 
 

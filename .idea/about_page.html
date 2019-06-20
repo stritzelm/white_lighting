@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <title>White Lightning</title>
         <script src="home.js" type="text/javascript"></script>
-        <link rel="stylesheet" href="home_page.css">
+        <link rel="stylesheet" href="about.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -26,7 +26,7 @@
         <!-- Sidebar Navigation -->
         <div class ="sidenav" id="sidebar">
 
-            <<img id="side_logo" src="side_bar_logo.png">
+            <img id="side_logo" src="side_bar_logo.png">
             <a href="#" onclick="go_to_main_page()"> Home </a>
             <a href="#" onclick="go_to_about_page()"> About  </a>
             <a href="#" onclick="go_to_events_page()"> Events </a>
@@ -37,21 +37,146 @@
         </div>
 
 
-        <!-- Featured event section: Fight event info  -->
+        <!-- About section: Tommy fighting info  -->
+        <div id="about_container" class="container-fluid">
 
-        <section id="about_section">
+            <div class="row">
 
-            <h1><b>ABOUT</b></h1>
+                <section id="about_section">
 
-            <figure>
-                <img src="walk_in.jpg" alt="Tommy Hughes greeting fans on his entrance to one of his fights">
-                <figcaption> Tommy "White Lighting" Hughes. @THE_DOME, Rosemont. <br>
-                    Where:  27 Jennie Finch Way, Des Plaines, IL <br> When: May 18, 2019
-                </figcaption>
+                    <div class="col-sm-4">
 
-            </figure>
+                        <h1><b>TOMMY HUGHES</b></h1>
 
-        </section>
+                        <figure>
+                            <img id="walk_in" src="walk_in.jpg" alt="Tommy Hughes greeting fans on his entrance to one of his fights">
+                        </figure>
+
+                    </div>
+
+                    <div class="col-sm-4">
+
+                        <p> Residence: Chicago, IL </p>
+                        <p> Age: 26</p>
+                        <p> Height: 6'/ 133cm </p>
+                        <p> Reach: 73in/ 185 cm</p>
+                        <p> Division: Super Middleweight </p>
+                        <p> Record: 9-1 </p>
+                        <p> KO's: 4 (40%)</p>
+
+                    </div>
+
+                    <div class="col-sm-4">
+                        <p> Manager: Carole Hughes</p>
+                        <p> Trainers: Wayne Gregory and Pat White </p>
+                        <p> US Rank: 27 </p>
+                        <p> College: Robert Morris (IL) </p>
+                        <p> Major: Bachelor Arts Degree in Business </p>
+                    </div>
+
+                </section>
+
+            </div>
+
+        </div>
+
+
+        <!-- Fighting record table: date, opponent, W-L-D, Location, Results -->
+        <div id ="fighting_history_section" class="container-fluid">
+            <h2> CAREER </h2>
+
+            <table id="record_table">
+                <tr>
+                    <th>Date</th>
+                    <th>Opponent</th>
+                    <th>W-L-D</th>
+                    <th>Location</th>
+                    <th>Result</th>
+                </tr>
+
+                <tr>
+                    <th>5/18/19</th>
+                    <th> Chris Chatman</th>
+                    <th> 15-10-1</th>
+                    <th>The Dome at the Ballpark, Rosemont</th>
+                    <th>W- MD</th>
+                </tr>
+
+                <tr>
+                    <th>2/22/19</th>
+                    <th> Mike Snider</th>
+                    <th> 13-4-3</th>
+                    <th>The Belvedere, Elk Grove Village</th>
+                    <th>W- TKO</th>
+                </tr>
+
+                <tr>
+                    <th>11/21/18</th>
+                    <th> Chris Chatman </th>
+                    <th> 15-8-1 </th>
+                    <th> The Belvedere, Elk Grove Village</th>
+                    <th>W- MD</th>
+                </tr>
+
+                <tr>
+                    <th>6/8/18</th>
+                    <th> Damar Singleton</th>
+                    <th> 9-2-1</th>
+                    <th> Allstate Arena, Rosemont </th>
+                    <th> L- TKO </th>
+                </tr>
+
+                <tr>
+                    <th> 3/2/18</th>
+                    <th> Antoine Elerson</th>
+                    <th> 3-19-2 </th>
+                    <th>The Belvedere, Elk Grove </th>
+                    <th>W- UD</th>
+                </tr>
+
+                <tr>
+                    <th>10/27/17</th>
+                    <th> Emmanuel Sanchez</th>
+                    <th> 7-6-0 </th>
+                    <th>The Belvedere, Elk Grove Village </th>
+                    <th>W- SD</th>
+                </tr>
+
+                <tr>
+                    <th>9/15/17</th>
+                    <th> Joshua Kuhn </th>
+                    <th> 1-1-1 </th>
+                    <th>The Dome at the Ballpark, Rosemont</th>
+                    <th>W- TKO</th>
+                </tr>
+
+                <tr>
+                    <th>6/23/17</th>
+                    <th> Gary Tadlock Garza </th>
+                    <th> Debut </th>
+                    <th>The Dome at the Ballpark, Rosemont</th>
+                    <th>W- TKO</th>
+                </tr>
+
+                <tr>
+                    <th>4/21/17</th>
+                    <th> Robert Guerra</th>
+                    <th> 2-4-0</th>
+                    <th>The Belvedere, Elk Grove Village</th>
+                    <th>W- UD</th>
+                </tr>
+
+                <tr>
+                    <th>2/10/17</th>
+                    <th> Lujzontrey A. Allen</th>
+                    <th> 0-1-0 </th>
+                    <th>The Belvedere, Elk Grove Village </th>
+                    <th>W- TKO</th>
+                </tr>
+
+            </table>
+
+        </div>
 
 
 
@@ -110,19 +235,19 @@
 
                     <div class="col-sm-4">
 
-                        <ul id="other_list">
+                        <ul id="sponsor_list">
 
-                            <h3> Other:</h3>
+                            <h3> Sponsors:</h3>
 
-                            <a href="#"> Boxing </a>
-                            <a href="#"> Chicago </a>
-                            <a href="#"> Irish </a> <br>
-                            <a href="#"> Gregory Boxing and Muy Thai </a>
+                            <a href="#"> Quality Excavation, </a>
+                            <a href="#"> Tri City Boxing and Muy Thai, </a>
+                            <a href="#"> Eric Craig Studios, </a>
+                            <a href="#"> Gregory Boxing and Muy Thai, </a>
+                            <a href="#"> Brendan Murray Attorney at Law </a>
 
                         </ul>
 
                     </div>
-
                 </section>
 
             </div>
