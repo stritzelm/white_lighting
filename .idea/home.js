@@ -20,4 +20,16 @@ function go_to_team_page() {
     window.location.replace("team.html");
 }
 
+function go_to_instagram() {
+    window.location.replace("https://www.instagram.com/whitelightning/?hl=en")
+}
+
+function go_to_facebook() {
+    window.location.replace("https://www.facebook.com/whitelightning1332/")
+}
+
+function go_to_twitter() {
+    window.location.replace("https://twitter.com/tjh1332?lang=hr")
+}
+
 
