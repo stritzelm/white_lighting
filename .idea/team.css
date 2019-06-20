@@ -1,0 +1,128 @@
+#my_header {
+    text-align: right;
+    font-stretch: expanded;
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    background-color: whitesmoke;
+
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+a:hover {
+    background-color: grey;
+}
+
+#sidebar {
+    position: fixed;
+    float:left;
+    width: 300px;
+    height: 100vh;
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: lightgray;
+    text-decoration-color: black;
+    color: black;           /* Used to make "Tommy Hughes" black */
+    text-align: center;
+}
+
+
+#sidebar img {
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+}
+
+
+#sidebar a:hover {
+    opacity: 10;
+    text-decoration: None;
+}
+
+#sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    display: block;
+    text-decoration: none;
+}
+
+
+#carole_info_row {
+    margin-left: 300px;
+    text-align: left;
+}
+
+#carole_info_row figure img {
+    border: 5px solid black;
+    width: 350px;
+    height: 200px;
+}
+
+#wayne_info_row {
+     padding-top: 30px;
+     margin-left: 300px;
+     text-align: left;
+ }
+
+#wayne_info_row figure img {
+    border: 5px solid black;
+}
+
+#wayne_info_row {
+    padding-top: 30px;
+    margin-left: 300px;
+    text-align: left;
+}
+
+#wayne_info_row figure img {
+    border: 5px solid black;
+}
+
+
+
+#nav_social_sponsors_section {
+    margin-left: 300px;
+}
+
+#nav_social_sponsors_section h3 {
+    font-weight: bold;
+
+}
+
+#nav_social_sponsors_section a {
+    color: black;
+}
+
+#nav_social_sponsors_section a:hover {
+    text-decoration: None;
+    background-color: grey;
+}
+
+.container-fluid {
+    background-color: whitesmoke;
+}
+
+ul {
+    position: static;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+
+#my_footer {
+    margin-left: 300px;
+    background-color: black;
+}
+
+
+#Lucida {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
