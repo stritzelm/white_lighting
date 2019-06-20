@@ -22,7 +22,7 @@ a:hover {
     height: 100vh;
     top: 0; /* Stay at the top */
     left: 0;
-    background: white;
+    background-color: lightgray;
     text-decoration-color: black;
     color: black;           /* Used to make "Tommy Hughes" black */
     text-align: center;
@@ -50,13 +50,7 @@ a:hover {
     display: block;
     text-decoration: none;
 }
-#famous_slide {
-    margin-left: 300px;
-    padding: 32px;
-    text-align: center;
-    background-color: dimgrey;
-    color: white;
-}
+
 
 
 #featured_events {
@@ -72,13 +66,15 @@ a:hover {
 
 }
 
+
 #featured_events figure figcaption {
     color: white;
+    caption-side: inherit;
 }
 
 #featured_events figure img {
-    border: 1px solid #ddd;
-    width: 200px;
+    border: 5px solid black;
+    width: 350px;
 
 }
 
@@ -101,9 +97,8 @@ a:hover {
 }
 
 .container-fluid {
-    background-color: lightgray;
+    background-color: whitesmoke;
 }
-
 
 ul {
     position: static;
