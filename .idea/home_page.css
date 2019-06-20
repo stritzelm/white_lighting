@@ -2,7 +2,17 @@
     text-align: right;
     font-stretch: expanded;
     font-size: 50px;
+    font-family: "Raleway", sans-serif;
     background-color: whitesmoke;
+
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+a:hover {
+    background-color: grey;
 }
 
 #sidebar {
@@ -12,44 +22,110 @@
     height: 100vh;
     top: 0; /* Stay at the top */
     left: 0;
-    background: black;
-    color: white;
+    background: white;
+    text-decoration-color: black;
+    color: black;           /* Used to make "Tommy Hughes" black */
     text-align: center;
 }
+
 
 #sidebar h3 {
     font-size: x-large;
+    padding-top: 64px;
     padding-bottom: 64px;
+
 }
+
+
+#sidebar a:hover {
+    opacity: 10;
+    text-decoration: None;
+}
+
 #sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    display: block;
+    text-decoration: none;
+}
+#famous_slide {
+    margin-left: 300px;
+    padding: 32px;
+    text-align: center;
+    background-color: dimgrey;
     color: white;
 }
 
 
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-}
 #featured_events {
+    margin-left: 300px;
     padding: 32px;
     text-align: center;
     background-color: grey;
+}
+
+#featured events h1 {
+    color: black;
+    font-weight: bold;
+
+}
+
+#featured_events figure figcaption {
     color: white;
 }
 
-#my_footer {
+#featured_events figure img {
+    border: 1px solid #ddd;
+    width: 200px;
+
+}
+
+#nav_social_other_section {
     margin-left: 300px;
 }
 
-.li {
-    padding: 16px;
+#nav_social_other_section h3 {
+    font-weight: bold;
+
 }
 
-#Lucida {
-    text-align: center;
-    color: white;
+#nav_social_other_section a {
+    color: black;
+}
+
+#nav_social_other_section a:hover {
+    text-decoration: None;
+    background-color: grey;
+}
+
+.container-fluid {
+    background-color: lightgray;
+}
+
+
+ul {
+    position: static;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+
+#my_footer {
+    margin-left: 300px;
     background-color: black;
 }
+
+
+#Lucida {
+    padding: 32px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
