@@ -17,34 +17,7 @@ function go_to_tickets_page() {
 }
 
 function go_to_team_page() {
-    window.location.replace("team_page.html");
-}
-
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-
-    document.getElementById("myOverlay").style.display = "block";
-
+    window.location.replace("team.html");
 }
 
 
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-
-    document.getElementById("myOverlay").style.display = "none";
-
-}
-
-
-// Modal Image Gallery
-
-function onClick(element) {
-    document.getElementById("img01").src = element.src;
-
-    document.getElementById("modal01").style.display = "block";
-
-    var captionText = document.getElementById("caption");
-
-    captionText.innerHTML = element.alt;
-
-}
