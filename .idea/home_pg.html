@@ -18,41 +18,92 @@
 
     <body>
 
-        <!-- Header: White Lightning -->
-        <header id="my_header"> WHITE LIGHTNING </header>
 
+
+        <!-- Header: White Lightning -->
+        <div class="container-fluid">
+            <header id="my_header" onclick="go_to_main_page()"> WHITE LIGHTNING </header>
+        </div>
 
         <!-- Sidebar Navigation -->
         <div class ="sidenav" id="sidebar">
 
-            <img id="side_logo" src="side_bar_logo.png">
+            <img id="side_logo" onclick="go_to_main_page()" src="side_bar_logo.png">
 
             <a href="#" onclick="go_to_main_page()"> Home </a>
             <a href="#" onclick="go_to_about_page()"> About  </a>
             <a href="#" onclick="go_to_events_page()"> Events </a>
             <a href="#" onclick="go_to_merch_page()"> Merch </a>
-            <a href="#" onclick="go_to_tickets_page()"> Tickets </a>
             <a href="#" onclick="go_to_team_page()"> Team </a>
-
-
 
         </div>
 
 
         <!-- Featured event section: Fight event info  -->
-        <section id="featured_events">
+        <div class="container-fluid" id="featured_events">
 
-            <h1><b>FEATURED EVENT</b></h1>
+            <div class="row">
 
-            <figure>
-                <img src="fight_card.jpg" alt="Tommy Hughes Fight on Febuary 22nd">
-                <figcaption> Tommy "White Lighting" Hughes. @THE_DOME, Rosemont. <br>
-                    Where:  27 Jennie Finch Way, Des Plaines, IL <br> When: May 18, 2019
-                </figcaption>
+                <div class="col-sm-4">
 
-            </figure>
+                    <h1 id="featured_event_heading">FEATURED EVENT</h1>
 
-        </section>
+                    <figure>
+
+                        <img id="featured_event_img" src="weight_in.jpg" alt="Tommy Hughes Fight on Febuary 22nd">
+
+                        <figcaption>
+                            <p> Tommy "White Lighting" Hughes. @THE_DOME, Rosemont. </p>
+                            <p> Where:  27 Jennie Finch Way, Des Plaines, IL </p>
+                            <p> When: May 18, 2019 </p>
+                            <button id="directions"> Directions </button>
+                        </figcaption>
+
+                    </figure>
+
+                </div>
+
+                <div class="col-sm-4">
+
+                    <h1 id="featured_event_heading"> picture_slide </h1>
+
+                    <figure>
+
+                        <img id="featured_event_img" src="weight_in.jpg" alt="Tommy Hughes Fight on Febuary 22nd">
+
+                        <figcaption>
+                            <p> Tommy "White Lighting" Hughes. @THE_DOME, Rosemont. </p>
+                            <p> Where:  27 Jennie Finch Way, Des Plaines, IL </p>
+                            <p> When: May 18, 2019 </p>
+                            <button id="directions"> Directions </button>
+                        </figcaption>
+
+                    </figure>
+
+                </div>
+
+                <div class="col-sm-4">
+
+                    <h1 id="featured_event_heading"> merch_slide </h1>
+
+                    <figure>
+
+                        <img id="featured_event_img" src="weight_in.jpg" alt="Tommy Hughes Fight on Febuary 22nd">
+
+                        <figcaption>
+                            <p> Tommy "White Lighting" Hughes. @THE_DOME, Rosemont. </p>
+                            <p> Where:  27 Jennie Finch Way, Des Plaines, IL </p>
+                            <p> When: May 18, 2019 </p>
+                            <button id="directions"> Directions </button>
+                        </figcaption>
+
+                    </figure>
+
+                </div>
+
+            </div>
+
+        </div>
 
 
         <!-- Navigation, Social Media, and Other Section -->
@@ -75,8 +126,6 @@
                             <a href="events_page.html" onclick="go_to_events_page()"> Events </a>
                             <br>
                             <a href="merch_page.html" onclick="go_to_merch_page()"> Merch </a>
-                            <br>
-                            <a href="tickets_page.html" onclick="go_to_tickets_page()"> Tickets </a>
                             <br>
                             <a href="team_page.html" onclick="go_to_team_page()"> Team </a>
 
@@ -114,7 +163,7 @@
 
                         <ul id="sponsor_list">
 
-                            <h3> Sponsors:</h3>
+                            <h3> Sponsors </h3>
 
                             <a href="#"> Quality Excavation, </a>
                             <a href="#"> Tri City Boxing and Muy Thai, </a>
@@ -134,11 +183,13 @@
 
 
         <!-- Footer section: Lucida Reference  -->
-        <footer id="my_footer">
+        <div class="container-fluid">
 
-            <p id="Lucida"> Powered By Lucida </p>
+            <footer id="my_footer">
+                <p id="Lucida"> Powered By Lucida </p>
+            </footer>
 
-        </footer>
+        </div>
 
     </body>
 
