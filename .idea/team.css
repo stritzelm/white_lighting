@@ -4,7 +4,7 @@
     font-size: 50px;
     font-family: "Raleway", sans-serif;
     background-color: whitesmoke;
-
+    text-shadow: 2px 2px 4px #000000;
 }
 
 body {
@@ -15,6 +15,8 @@ a:hover {
     background-color: grey;
 }
 
+
+
 #sidebar {
     position: fixed;
     float:left;
@@ -22,7 +24,14 @@ a:hover {
     height: 100vh;
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: lightgray;
+    background: rgba(207,207,207,1);
+    background: -moz-linear-gradient(left, rgba(207,207,207,1) 0%, rgba(191,191,191,1) 51%, rgba(199,199,199,1) 74%, rgba(232,232,232,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(207,207,207,1)), color-stop(51%, rgba(191,191,191,1)), color-stop(74%, rgba(199,199,199,1)), color-stop(100%, rgba(232,232,232,1)));
+    background: -webkit-linear-gradient(left, rgba(207,207,207,1) 0%, rgba(191,191,191,1) 51%, rgba(199,199,199,1) 74%, rgba(232,232,232,1) 100%);
+    background: -o-linear-gradient(left, rgba(207,207,207,1) 0%, rgba(191,191,191,1) 51%, rgba(199,199,199,1) 74%, rgba(232,232,232,1) 100%);
+    background: -ms-linear-gradient(left, rgba(207,207,207,1) 0%, rgba(191,191,191,1) 51%, rgba(199,199,199,1) 74%, rgba(232,232,232,1) 100%);
+    background: linear-gradient(to right, rgba(207,207,207,1) 0%, rgba(191,191,191,1) 51%, rgba(199,199,199,1) 74%, rgba(232,232,232,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfcfcf', endColorstr='#e8e8e8', GradientType=1 );
     text-decoration-color: black;
     color: black;           /* Used to make "Tommy Hughes" black */
     text-align: center;
@@ -51,36 +60,84 @@ a:hover {
 }
 
 
+#team_container {
+    color: white;
+    background: rgba(48,48,48,1);
+    background: -moz-linear-gradient(left, rgba(48,48,48,1) 0%, rgba(43,43,43,1) 17%, rgba(56,56,56,1) 34%, rgba(23,23,23,1) 46%, rgba(38,38,38,1) 55%, rgba(10,10,10,1) 64%, rgba(0,0,0,1) 69%, rgba(23,23,23,1) 81%, rgba(10,10,10,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(48,48,48,1)), color-stop(17%, rgba(43,43,43,1)), color-stop(34%, rgba(56,56,56,1)), color-stop(46%, rgba(23,23,23,1)), color-stop(55%, rgba(38,38,38,1)), color-stop(64%, rgba(10,10,10,1)), color-stop(69%, rgba(0,0,0,1)), color-stop(81%, rgba(23,23,23,1)), color-stop(100%, rgba(10,10,10,1)));
+    background: -webkit-linear-gradient(left, rgba(48,48,48,1) 0%, rgba(43,43,43,1) 17%, rgba(56,56,56,1) 34%, rgba(23,23,23,1) 46%, rgba(38,38,38,1) 55%, rgba(10,10,10,1) 64%, rgba(0,0,0,1) 69%, rgba(23,23,23,1) 81%, rgba(10,10,10,1) 100%);
+    background: -o-linear-gradient(left, rgba(48,48,48,1) 0%, rgba(43,43,43,1) 17%, rgba(56,56,56,1) 34%, rgba(23,23,23,1) 46%, rgba(38,38,38,1) 55%, rgba(10,10,10,1) 64%, rgba(0,0,0,1) 69%, rgba(23,23,23,1) 81%, rgba(10,10,10,1) 100%);
+    background: -ms-linear-gradient(left, rgba(48,48,48,1) 0%, rgba(43,43,43,1) 17%, rgba(56,56,56,1) 34%, rgba(23,23,23,1) 46%, rgba(38,38,38,1) 55%, rgba(10,10,10,1) 64%, rgba(0,0,0,1) 69%, rgba(23,23,23,1) 81%, rgba(10,10,10,1) 100%);
+    background: linear-gradient(to right, rgba(48,48,48,1) 0%, rgba(43,43,43,1) 17%, rgba(56,56,56,1) 34%, rgba(23,23,23,1) 46%, rgba(38,38,38,1) 55%, rgba(10,10,10,1) 64%, rgba(0,0,0,1) 69%, rgba(23,23,23,1) 81%, rgba(10,10,10,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#303030', endColorstr='#0a0a0a', GradientType=1 );
+}
+
+
+
+#team_container img {
+    width: 250px;
+    height: 250px;
+}
+
+
+
 #carole_info_row {
+    padding-left: 100px;
     margin-left: 300px;
     text-align: left;
 }
 
 #carole_info_row figure img {
-    border: 5px solid black;
-    width: 350px;
-    height: 200px;
+    border: 5px solid silver;
 }
 
-#wayne_info_row {
-     padding-top: 30px;
-     margin-left: 300px;
-     text-align: left;
- }
-
-#wayne_info_row figure img {
-    border: 5px solid black;
-}
 
 #wayne_info_row {
+    padding-left: 100px;
     padding-top: 30px;
     margin-left: 300px;
     text-align: left;
 }
 
 #wayne_info_row figure img {
-    border: 5px solid black;
+    border: 5px solid silver;
 }
+
+
+#white_info_row {
+    padding-left: 100px;
+    padding-top: 30px;
+    margin-left: 300px;
+    text-align: left;
+}
+
+#white_info_row figure img {
+    border: 5px solid silver;
+}
+
+#billy_info_row {
+    padding-left: 100px;
+    padding-top: 30px;
+    margin-left: 300px;
+    text-align: left;
+}
+
+#billy_info_row figure img {
+    border: 5px solid silver;
+}
+
+#jason_info_row {
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 300px;
+    text-align: left;
+}
+
+#jason_info_row figure img {
+    border: 5px solid silver;
+}
+
 
 
 
@@ -118,6 +175,13 @@ ul a {
 #my_footer {
     margin-left: 300px;
     background-color: black;
+}
+
+#footer_logo {
+    padding-left: 60px;
+    padding-top: 30px;
+    width: 150px;
+    height: 200px;
 }
 
 
