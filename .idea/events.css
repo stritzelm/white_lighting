@@ -75,8 +75,12 @@ a:hover {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#303030', endColorstr='#0a0a0a', GradientType=1 );
 }
 
-#featured_event_section h1 {
+featured_event_heading {
     text-align: center;
+}
+
+featured_event_column img {
+
 }
 
 #featured_event_section {
@@ -86,6 +90,11 @@ a:hover {
 
 #featured_event_section img {
     padding-bottom: 30px ;
+    height: 300px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 

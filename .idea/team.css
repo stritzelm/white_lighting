@@ -61,15 +61,29 @@ a:hover {
 
 
 #team_container {
+    color: black;
+    background-color: white;
+}
+
+#team_header {
+    background: rgba(76,76,76,1);
+    background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(102,102,102,0.96) 9%, rgba(89,89,89,0.92) 17%, rgba(44,44,44,0.86) 31%, rgba(71,71,71,0.82) 39%, rgba(0,0,0,0.76) 53%, rgba(17,17,17,0.7) 67%, rgba(43,43,43,0.64) 81%, rgba(28,28,28,0.59) 91%, rgba(19,19,19,0.55) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(9%, rgba(102,102,102,0.96)), color-stop(17%, rgba(89,89,89,0.92)), color-stop(31%, rgba(44,44,44,0.86)), color-stop(39%, rgba(71,71,71,0.82)), color-stop(53%, rgba(0,0,0,0.76)), color-stop(67%, rgba(17,17,17,0.7)), color-stop(81%, rgba(43,43,43,0.64)), color-stop(91%, rgba(28,28,28,0.59)), color-stop(100%, rgba(19,19,19,0.55)));
+    background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(102,102,102,0.96) 9%, rgba(89,89,89,0.92) 17%, rgba(44,44,44,0.86) 31%, rgba(71,71,71,0.82) 39%, rgba(0,0,0,0.76) 53%, rgba(17,17,17,0.7) 67%, rgba(43,43,43,0.64) 81%, rgba(28,28,28,0.59) 91%, rgba(19,19,19,0.55) 100%);
+    background: -o-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(102,102,102,0.96) 9%, rgba(89,89,89,0.92) 17%, rgba(44,44,44,0.86) 31%, rgba(71,71,71,0.82) 39%, rgba(0,0,0,0.76) 53%, rgba(17,17,17,0.7) 67%, rgba(43,43,43,0.64) 81%, rgba(28,28,28,0.59) 91%, rgba(19,19,19,0.55) 100%);
+    background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(102,102,102,0.96) 9%, rgba(89,89,89,0.92) 17%, rgba(44,44,44,0.86) 31%, rgba(71,71,71,0.82) 39%, rgba(0,0,0,0.76) 53%, rgba(17,17,17,0.7) 67%, rgba(43,43,43,0.64) 81%, rgba(28,28,28,0.59) 91%, rgba(19,19,19,0.55) 100%);
+    background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(102,102,102,0.96) 9%, rgba(89,89,89,0.92) 17%, rgba(44,44,44,0.86) 31%, rgba(71,71,71,0.82) 39%, rgba(0,0,0,0.76) 53%, rgba(17,17,17,0.7) 67%, rgba(43,43,43,0.64) 81%, rgba(28,28,28,0.59) 91%, rgba(19,19,19,0.55) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1 );
+}
+
+
+
+#team_twlh_heading {
+
+    margin-left: 300px;
+    text-align: center;
+    font-weight: bold;
     color: white;
-    background: rgba(48,48,48,1);
-    background: -moz-linear-gradient(left, rgba(48,48,48,1) 0%, rgba(43,43,43,1) 17%, rgba(56,56,56,1) 34%, rgba(23,23,23,1) 46%, rgba(38,38,38,1) 55%, rgba(10,10,10,1) 64%, rgba(0,0,0,1) 69%, rgba(23,23,23,1) 81%, rgba(10,10,10,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(48,48,48,1)), color-stop(17%, rgba(43,43,43,1)), color-stop(34%, rgba(56,56,56,1)), color-stop(46%, rgba(23,23,23,1)), color-stop(55%, rgba(38,38,38,1)), color-stop(64%, rgba(10,10,10,1)), color-stop(69%, rgba(0,0,0,1)), color-stop(81%, rgba(23,23,23,1)), color-stop(100%, rgba(10,10,10,1)));
-    background: -webkit-linear-gradient(left, rgba(48,48,48,1) 0%, rgba(43,43,43,1) 17%, rgba(56,56,56,1) 34%, rgba(23,23,23,1) 46%, rgba(38,38,38,1) 55%, rgba(10,10,10,1) 64%, rgba(0,0,0,1) 69%, rgba(23,23,23,1) 81%, rgba(10,10,10,1) 100%);
-    background: -o-linear-gradient(left, rgba(48,48,48,1) 0%, rgba(43,43,43,1) 17%, rgba(56,56,56,1) 34%, rgba(23,23,23,1) 46%, rgba(38,38,38,1) 55%, rgba(10,10,10,1) 64%, rgba(0,0,0,1) 69%, rgba(23,23,23,1) 81%, rgba(10,10,10,1) 100%);
-    background: -ms-linear-gradient(left, rgba(48,48,48,1) 0%, rgba(43,43,43,1) 17%, rgba(56,56,56,1) 34%, rgba(23,23,23,1) 46%, rgba(38,38,38,1) 55%, rgba(10,10,10,1) 64%, rgba(0,0,0,1) 69%, rgba(23,23,23,1) 81%, rgba(10,10,10,1) 100%);
-    background: linear-gradient(to right, rgba(48,48,48,1) 0%, rgba(43,43,43,1) 17%, rgba(56,56,56,1) 34%, rgba(23,23,23,1) 46%, rgba(38,38,38,1) 55%, rgba(10,10,10,1) 64%, rgba(0,0,0,1) 69%, rgba(23,23,23,1) 81%, rgba(10,10,10,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#303030', endColorstr='#0a0a0a', GradientType=1 );
 }
 
 
@@ -80,17 +94,21 @@ a:hover {
 }
 
 
-
 #carole_info_row {
     padding-left: 100px;
+    padding-top: 30px;
     margin-left: 300px;
     text-align: left;
 }
 
-#carole_info_row figure img {
-    border: 5px solid silver;
+
+#carole_text {
+    padding-top: 30px;
 }
 
+#carole_text h4 {
+    font-weight: bold;
+}
 
 #wayne_info_row {
     padding-left: 100px;
@@ -99,8 +117,14 @@ a:hover {
     text-align: left;
 }
 
-#wayne_info_row figure img {
-    border: 5px solid silver;
+
+
+#wayne_text {
+    padding-top: 30px;
+}
+
+#wayne_text h4 {
+    font-weight: bold;
 }
 
 
@@ -111,22 +135,17 @@ a:hover {
     text-align: left;
 }
 
-#white_info_row figure img {
-    border: 5px solid silver;
+
+
+#white_text {
+    padding-top: 30px;
+}
+
+#white_text h4 {
+    font-weight: bold;
 }
 
 #billy_info_row {
-    padding-left: 100px;
-    padding-top: 30px;
-    margin-left: 300px;
-    text-align: left;
-}
-
-#billy_info_row figure img {
-    border: 5px solid silver;
-}
-
-#jason_info_row {
     padding-left: 100px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -134,9 +153,56 @@ a:hover {
     text-align: left;
 }
 
-#jason_info_row figure img {
-    border: 5px solid silver;
+
+
+#billy_text {
+    padding-top: 30px;
 }
+
+#billy_text h4 {
+    font-weight: bold;
+}
+
+#jason_info_row {
+    padding-left: 100px;
+    padding-top: 30px;
+    margin-left: 300px;
+    text-align: left;
+}
+
+
+#jason_text {
+    padding-top: 30px;
+}
+
+#jason_text h4 {
+    font-weight: bold;
+}
+
+#bobby_info_row {
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 300px;
+    text-align: left;
+}
+
+
+#bobby_text {
+    padding-top: 30px;
+}
+
+#bobby_text h4 {
+    font-weight: bold;
+}
+
+.row {
+    border-top: black;
+}
+
+
+
+
 
 
 

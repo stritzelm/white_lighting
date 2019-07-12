@@ -95,6 +95,11 @@ figcaption {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616161', endColorstr='#fefefe', GradientType=1 );
 }
 
+#fighting_history_section h1 {
+    color: black;
+    font-weight: bold;
+}
+
 
 table {
     font-family: "Arial Black", Gadget, sans-serif;
