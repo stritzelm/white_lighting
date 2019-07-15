@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
     <head>
         <meta charset="UTF-8">
         <title>White Lightning</title>
@@ -15,7 +16,8 @@
         <!-- End WOWSlider.com HEAD section -->
     </head>
 
-    <body>
+
+    <body onload="carousel(); showDiv(1)">
 
         <!-- Header: White Lightning -->
         <div class="container-fluid">
@@ -39,23 +41,30 @@
         <!-- Featured event SLIDESHOW section: Fight event info, slideshow pics  -->
         <div class="container-fluid" id="featured_events">
 
+            <a href="events_page.html" id="featured_event_heading">
+                <p id="title_details"> TITLE BELT ON THE LINE! TWLH VS JON JONES. SEPTEMBER 21 </p>
+            </a>
             <img class="mySlides" src="weight_in.png">
             <img class="mySlides" src="team_pic.png">
             <img class="mySlides" src="tommy_bloody.png">
-
-            <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
 
         </div>
 
         <!-- Famous people SLIDESHOW section: Doug Flutie, Duncan Keith, Jerry Springer, etc. -->
         <div class="container-fluid" id="famous_people_section">
 
-            <video id="flutie_video" src="flutie_vid.mp4" autoplay> </video>
-            
+            <h1> TWLH IS TAKING OVER! </h1>
+
+            <h5> Celebrities like Doug Flutie, Jerry Springer, Duncan Keith, Tucker Carlson, and many more are aboard #TWLH </h5>
+
+            <video class="myVids" src="flutie_vid.mp4" controls> </video>
+            <video class="myVids" src="keith_vid.mp4" controls> </video>
+            <video class="myVids" src="springer_vid.mp4" controls> </video>
+
+            <button class="w3-button w3-display-left w3-center" id="left_button" onclick="plusDiv(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right w3-center" id="right_button" onclick="plusDiv(+1)">&#10095;</button>
+
         </div>
-
-
 
 
 
@@ -123,6 +132,7 @@
             </div>
 
         </div>
+
 
         <!-- Footer section: Lucida Reference  -->
         <div class="container-fluid">

@@ -56,12 +56,11 @@ a:hover {
     color: black;
     font-size: 25px;
     display: block;
-    text-decoration: none;
 }
 
 
-
 #featured_events {
+    color: white;
     margin-left: 300px;
     padding: 32px;
     font-family: Verdana, sans-serif;
@@ -75,11 +74,64 @@ a:hover {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#303030', endColorstr='#0a0a0a', GradientType=1 );
 }
 
+#featured_event_heading {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#featured_event_heading p:hover {
+    background-color: grey;
+}
+
+
+
 #featured_events img {
     width: 500px;
     height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 23px 23px 23px 23px;
 }
 
+#featured_events button {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+
+#famous_people_section {
+    text-align: center;
+    color: white;
+    margin-left: 300px;
+    padding: 32px;
+    background: rgba(97,97,97,1);
+    background: -moz-linear-gradient(left, rgba(97,97,97,1) 19%, rgba(169,169,169,1) 56%, rgba(227,227,227,1) 86%, rgba(254,254,254,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(19%, rgba(97,97,97,1)), color-stop(56%, rgba(169,169,169,1)), color-stop(86%, rgba(227,227,227,1)), color-stop(100%, rgba(254,254,254,1)));
+    background: -webkit-linear-gradient(left, rgba(97,97,97,1) 19%, rgba(169,169,169,1) 56%, rgba(227,227,227,1) 86%, rgba(254,254,254,1) 100%);
+    background: -o-linear-gradient(left, rgba(97,97,97,1) 19%, rgba(169,169,169,1) 56%, rgba(227,227,227,1) 86%, rgba(254,254,254,1) 100%);
+    background: -ms-linear-gradient(left, rgba(97,97,97,1) 19%, rgba(169,169,169,1) 56%, rgba(227,227,227,1) 86%, rgba(254,254,254,1) 100%);
+    background: linear-gradient(to right, rgba(97,97,97,1) 19%, rgba(169,169,169,1) 56%, rgba(227,227,227,1) 86%, rgba(254,254,254,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616161', endColorstr='#fefefe', GradientType=1 );
+}
+
+#famous_people_section video {
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 10px inset #ddd;
+    border-radius: 23px 23px 23px 23px;
+}
+
+#famous_people_section h1 {
+    text-align: center;
+}
 
 #directions {
     -moz-box-shadow:inset 0px -3px 7px 0px #8d8e8f;

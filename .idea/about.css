@@ -74,13 +74,15 @@ a:hover {
 
 
 #walk_in {
-    padding-bottom: 30px;
+    border: 10px inset #ddd;
 }
 
 figcaption {
     display: table-caption;
     caption-side: top;
 }
+
+
 
 #fighting_history_section {
     padding: 30px;
@@ -94,6 +96,7 @@ figcaption {
     background: linear-gradient(to right, rgba(97,97,97,1) 19%, rgba(169,169,169,1) 56%, rgba(227,227,227,1) 86%, rgba(254,254,254,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616161', endColorstr='#fefefe', GradientType=1 );
 }
+
 
 #fighting_history_section h1 {
     color: black;
@@ -110,12 +113,17 @@ table {
     border-collapse: collapse;
     -webkit-background-clip: no-clip;
     -moz-background-clip: no-clip;
-    background-color: white;
-
-
 }
 
-table tr, th {
+#record_table {
+    background-color: white;
+}
+#table_headers {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+table th {
     border: 1px solid #4A4A4A;
     padding: 3px 2px;
 }

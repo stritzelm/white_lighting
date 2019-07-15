@@ -79,14 +79,12 @@ featured_event_heading {
     text-align: center;
 }
 
-featured_event_column img {
-
-}
 
 #featured_event_section {
     color: white;
     text-shadow: 2px 2px 4px #000000;
 }
+
 
 #featured_event_section img {
     padding-bottom: 30px ;
@@ -95,6 +93,8 @@ featured_event_column img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 50%;
+    border: 10px inset #ddd;
 }
 
 
