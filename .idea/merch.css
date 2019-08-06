@@ -75,7 +75,12 @@ a:hover {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#303030', endColorstr='#0a0a0a', GradientType=1 );
 }
 
-#merch_section img {
+#tommy_hat_img {
+    width: 250px;
+    height: 250px;
+}
+
+#tommy_shirt_img {
     width: 250px;
     height: 250px;
 }
@@ -89,90 +94,32 @@ a:hover {
     text-shadow: 2px 2px 4px #000000;
 }
 
-
-
-
-#buy_shirt {
-    -moz-box-shadow:inset 0px -3px 7px 0px #8d8e8f;
-    -webkit-box-shadow:inset 0px -3px 7px 0px #8d8e8f;
-    box-shadow:inset 0px -3px 7px 0px #8d8e8f;
-    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #38423a), color-stop(1, #ffffff));
-    background:-moz-linear-gradient(top, #38423a 5%, #ffffff 100%);
-    background:-webkit-linear-gradient(top, #38423a 5%, #ffffff 100%);
-    background:-o-linear-gradient(top, #38423a 5%, #ffffff 100%);
-    background:-ms-linear-gradient(top, #38423a 5%, #ffffff 100%);
-    background:linear-gradient(to bottom, #38423a 5%, #ffffff 100%);
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#38423a', endColorstr='#ffffff',GradientType=0);
-    background-color:#38423a;
-    -moz-border-radius:3px;
-    -webkit-border-radius:3px;
-    border-radius:3px;
-    border:1px solid #a5a8b3;
-    display:inline-block;
-    cursor:pointer;
-    color:#000000;
-    font-family:Arial;
-    font-size:15px;
-    padding:9px 23px;
-    text-decoration:none;
-
-}
-#buy_shirt:hover {
-    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #38423a));
-    background:-moz-linear-gradient(top, #ffffff 5%, #38423a 100%);
-    background:-webkit-linear-gradient(top, #ffffff 5%, #38423a 100%);
-    background:-o-linear-gradient(top, #ffffff 5%, #38423a 100%);
-    background:-ms-linear-gradient(top, #ffffff 5%, #38423a 100%);
-    background:linear-gradient(to bottom, #ffffff 5%, #38423a 100%);
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#38423a',GradientType=0);
-    background-color:#ffffff;
+.hat_icon p {
+    margin:0;
+    padding:0;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    font-size: 12px;
+    display: inline-block;
 }
 
-#buy_shirt:active {
-    position:relative;
-    top:1px;
+option {
+    color: black;
 }
 
-#buy_hat {
-    -moz-box-shadow:inset 0px -3px 7px 0px #8d8e8f;
-    -webkit-box-shadow:inset 0px -3px 7px 0px #8d8e8f;
-    box-shadow:inset 0px -3px 7px 0px #8d8e8f;
-    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #38423a), color-stop(1, #ffffff));
-    background:-moz-linear-gradient(top, #38423a 5%, #ffffff 100%);
-    background:-webkit-linear-gradient(top, #38423a 5%, #ffffff 100%);
-    background:-o-linear-gradient(top, #38423a 5%, #ffffff 100%);
-    background:-ms-linear-gradient(top, #38423a 5%, #ffffff 100%);
-    background:linear-gradient(to bottom, #38423a 5%, #ffffff 100%);
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#38423a', endColorstr='#ffffff',GradientType=0);
-    background-color:#38423a;
-    -moz-border-radius:3px;
-    -webkit-border-radius:3px;
-    border-radius:3px;
-    border:1px solid #a5a8b3;
-    display:inline-block;
-    cursor:pointer;
-    color:#000000;
-    font-family:Arial;
-    font-size:15px;
-    padding:9px 23px;
-    text-decoration:none;
-
-}
-#buy_hat:hover {
-    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #38423a));
-    background:-moz-linear-gradient(top, #ffffff 5%, #38423a 100%);
-    background:-webkit-linear-gradient(top, #ffffff 5%, #38423a 100%);
-    background:-o-linear-gradient(top, #ffffff 5%, #38423a 100%);
-    background:-ms-linear-gradient(top, #ffffff 5%, #38423a 100%);
-    background:linear-gradient(to bottom, #ffffff 5%, #38423a 100%);
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#38423a',GradientType=0);
-    background-color:#ffffff;
+#hat_size {
+    color: white;
 }
 
-#buy_hat:active {
-    position:relative;
-    top:1px;
+
+
+#view_cart_img {
+    width: 100px;
+    height: 100px;
+    background-color: white;
 }
+
+
 
 
 #nav_social_sponsors_section {
@@ -204,6 +151,11 @@ ul {
 ul a {
     text-decoration: none;
 }
+
+form {
+    color: black;
+}
+
 
 
 #my_footer {

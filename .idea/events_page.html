@@ -35,7 +35,6 @@
 
 
         <!-- Featured event section: Fight event info  -->
-
         <div class="container-fluid" id="featured_event_section">
 
             <div class="row">
@@ -51,13 +50,12 @@
                             <p> Tommy "White Lighting" Hughes. @THE_DOME, Rosemont. </p>
                             <p> Where:  27 Jennie Finch Way, Des Plaines, IL </p>
                             <p> When: September 21, 2019 </p>
-                            <button id="directions"> Directions </button>
-                            <button id="tickets"> Tickets Here! </button>
-
-                            <!--
-                            <script src="https://www.paypal.com/sdk/js?client-id=sb"></script>
-                            <script>paypal.Buttons().render('body');</script>
-                            -->
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="LB3BAX55UB9GG">
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
                         </figcaption>
 
                     </figure>
@@ -126,7 +124,6 @@
             </div>
 
         </div>
-
 
 
         <!-- Footer section: Lucida Reference  -->

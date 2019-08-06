@@ -87,7 +87,7 @@ a:hover {
 
 
 
-#featured_events img {
+.mySlides {
     width: 500px;
     height: 300px;
     display: block;
@@ -97,10 +97,7 @@ a:hover {
     border-radius: 23px 23px 23px 23px;
 }
 
-#featured_events button {
-    display: inline-block;
-    margin: 0 auto;
-}
+
 
 
 #famous_people_section {
