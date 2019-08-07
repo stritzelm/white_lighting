@@ -41,7 +41,6 @@ a:hover {
 #sidebar img {
     padding-top: 64px;
     padding-bottom: 64px;
-
 }
 
 
@@ -60,7 +59,6 @@ a:hover {
 }
 
 
-
 #merch_section {
     margin-left: 300px;
     padding: 32px;
@@ -75,15 +73,41 @@ a:hover {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#303030', endColorstr='#0a0a0a', GradientType=1 );
 }
 
+.row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#shirt_row {
+    border-top: 1px solid lightgray;
+}
+
+
+#hat_row, #shirt_row {
+    padding-left: 50px;
+}
+
+
+td {
+    color: gray;
+}
+
+
 #tommy_hat_img {
     width: 250px;
     height: 250px;
 }
 
+
 #tommy_shirt_img {
     width: 250px;
     height: 250px;
 }
+
+#add_shirt_to_cart_btn, #buy_hat_now_btn {
+     padding-top: 5px;
+}
+
 
 #merch_section h1 {
     text-align: center;
@@ -92,31 +116,6 @@ a:hover {
 #merch_section {
     color: white;
     text-shadow: 2px 2px 4px #000000;
-}
-
-.hat_icon p {
-    margin:0;
-    padding:0;
-    padding-bottom: 5px;
-    margin-left: 20px;
-    font-size: 12px;
-    display: inline-block;
-}
-
-option {
-    color: black;
-}
-
-#hat_size {
-    color: white;
-}
-
-
-
-#view_cart_img {
-    width: 100px;
-    height: 100px;
-    background-color: white;
 }
 
 
@@ -152,9 +151,7 @@ ul a {
     text-decoration: none;
 }
 
-form {
-    color: black;
-}
+
 
 
 
