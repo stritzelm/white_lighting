@@ -73,10 +73,6 @@ a:hover {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#303030', endColorstr='#0a0a0a', GradientType=1 );
 }
 
-.row {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
 
 #shirt_row {
     border-top: 1px solid lightgray;
@@ -85,6 +81,8 @@ a:hover {
 
 #hat_row, #shirt_row {
     padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 
