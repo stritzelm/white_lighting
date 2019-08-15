@@ -88,8 +88,8 @@ a:hover {
 
 
 #team_container img {
-    width: 250px;
-    height: 250px;
+    width: 275px;
+    height: 350px;
     border: 5px inset #ddd
 }
 
@@ -103,6 +103,7 @@ a:hover {
 
 
 #carole_text {
+    padding-left: 40px;
     padding-top: 30px;
 }
 
@@ -117,9 +118,15 @@ a:hover {
     text-align: left;
 }
 
+.row img {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 
 
 #wayne_text {
+    padding-left: 40px;
     padding-top: 30px;
 }
 
@@ -138,6 +145,7 @@ a:hover {
 
 
 #white_text {
+    padding-left: 40px;
     padding-top: 30px;
 }
 
@@ -156,6 +164,7 @@ a:hover {
 
 
 #billy_text {
+    padding-left: 40px;
     padding-top: 30px;
 }
 
@@ -172,6 +181,7 @@ a:hover {
 
 
 #jason_text {
+    padding-left: 40px;
     padding-top: 30px;
 }
 
@@ -189,6 +199,7 @@ a:hover {
 
 
 #bobby_text {
+    padding-left: 40px;
     padding-top: 30px;
 }
 

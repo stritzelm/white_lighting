@@ -102,8 +102,12 @@ td {
     height: 250px;
 }
 
-#add_shirt_to_cart_btn, #buy_hat_now_btn {
-     padding-top: 5px;
+#shirt_button, #hat_button {
+    padding-top: 5px;
+}
+
+#hat_info_column, #shirt_info_column {
+    padding-left: 80px;
 }
 
 

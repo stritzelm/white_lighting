@@ -1,5 +1,5 @@
 function go_to_main_page() {
-    window.location.replace("home_pg.html");
+    window.location.replace("index.html");
 }
 function go_to_about_page() {
     window.location.replace("about_page.html");
